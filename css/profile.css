@@ -1,0 +1,142 @@
+
+.profile-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+   
+}
+.user-profile {
+    z-index: 1;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    z-index: -1;
+}
+
+
+.profile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-header .header-icon {
+    font-size: 24px;
+    margin-right: 110px;
+}
+
+.profile-header .left {
+    cursor: pointer;
+
+}
+
+.profile-header .right {
+    cursor: pointer;
+
+}
+
+
+.image-container {
+    position: absolute; 
+    width: 100%;
+    height: 100px; 
+    z-index: 1;
+}
+
+
+
+.profile-main {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.profile-img-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+   
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    border: 5px solid red;
+
+}
+
+.profile-info form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 160px;
+}
+
+.profile-info label {
+    font-size: 14px;
+    color: #333;
+}
+
+.profile-info input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.edit-profile-btn, .logout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit-profile-btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.edit-profile-btn:hover {
+    background-color: #333;
+}
+
+.logout-btn {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #f8f8f8;
+}
+
+
+.edit-profile-btn i, .logout-btn i {
+    font-size: 18px;
+}
