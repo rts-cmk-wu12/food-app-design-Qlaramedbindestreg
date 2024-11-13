@@ -70,7 +70,7 @@
   
 }
 
-.product-img {
+.product-img-burg {
     width: 180px;
     height: 120px;
     object-fit: contain;
@@ -129,3 +129,5 @@
 .order-btn:hover {
     background-color: #444;
 }
+
+
